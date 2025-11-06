@@ -1,6 +1,6 @@
 # Samsung Galaxy Book2 Pro 360 (950QED) Audio Speaker Fix for Linux
 
-This repository provides a definitive fix for the internal speakers on the **Samsung Galaxy Book2 Pro 360 (model 950QED)** running Ubuntu or other Debian-based Linux distributions.
+This repository provides a definitive fix for the internal speakers on the **Samsung Galaxy Book2 Pro 360 (model 950QED)** running Ubuntu 24 LTS.
 
 ## The Problem
 On this specific model, the audio driver loads correctly and sound works perfectly through the 3.5mm headphone jack. However, the internal speakers remain silent. This is due to a secondary speaker amplifier chip (likely a Cirrus Logic model) that is not correctly initialized by the standard SOF (Sound Open Firmware) driver.
